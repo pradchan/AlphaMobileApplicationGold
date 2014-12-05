@@ -14,6 +14,7 @@ public class Student10 {
     @GET
     @Path("/sayHello")
     @Produces(MediaType.APPLICATION_JSON)
+    
     public String sayHello() {
         String message;
         String firstName = "John";
@@ -21,6 +22,7 @@ public class Student10 {
         
         message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
+        
     }
 
 }
