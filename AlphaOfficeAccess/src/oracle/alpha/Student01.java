@@ -16,8 +16,8 @@ public class Student01 {
     @Produces(MediaType.APPLICATION_JSON)
     public String sayHello() {
         String message;
-        String firstName = "John";
-        String lastName = "Smith";
+        String firstName = "Dennis";
+        String lastName = "Foley";
         
         message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
