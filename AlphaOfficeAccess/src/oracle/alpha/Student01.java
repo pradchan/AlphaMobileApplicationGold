@@ -16,7 +16,7 @@ public class Student01 {
     @Produces(MediaType.APPLICATION_JSON)
     public String sayHello() {
         String message;
-        String firstName = "Matt";
+        String firstName = "Matthew";
         String middleName = "Thomas";
         String lastName = "Orsie";
         
