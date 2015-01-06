@@ -16,11 +16,10 @@ public class Student01 {
     @Produces(MediaType.APPLICATION_JSON)
     public String sayHello() {
         String message;
-        String firstName = "Matthew";
-        String middleName = "Thomas";
-        String lastName = "Orsie";
+        String firstName = "John";
+        String lastName = "Smith";
         
-        message = new String (firstName + " " + middleName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
+        message = new String (firstName  + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
         
     }
