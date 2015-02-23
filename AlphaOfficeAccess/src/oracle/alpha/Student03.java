@@ -9,7 +9,9 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/AlphaOfficeAccess/Student03")
 public class Student03{
-    /** Default constructor. */
+    /**
+     * Default constructor.
+     */
     public Student03() {
         super();
     }
