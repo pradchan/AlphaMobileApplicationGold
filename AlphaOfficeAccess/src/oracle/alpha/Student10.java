@@ -24,5 +24,4 @@ public class Student10 {
         return message;
         
     }
-
 }
