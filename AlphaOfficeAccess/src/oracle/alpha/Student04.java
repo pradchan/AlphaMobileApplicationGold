@@ -1,5 +1,3 @@
-// Student04.java
-
 package oracle.alpha;
 
 import javax.ws.rs.GET;
@@ -9,9 +7,6 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/AlphaOfficeAccess/Student04")
 public class Student04 {
-    /**
-     * Default constructor.
-     */
     public Student04() {
         super();
     }
@@ -19,10 +14,11 @@ public class Student04 {
     @GET
     @Path("/sayHello")
     @Produces(MediaType.APPLICATION_JSON)
+
     public String sayHello() {
         String message;
-        String firstName = "Danny";
-        String lastName = "Clibon";
+        String firstName = "John";
+        String lastName = "Smith";
 
         message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;

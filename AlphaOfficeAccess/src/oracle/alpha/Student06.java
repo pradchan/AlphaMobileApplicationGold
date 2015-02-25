@@ -14,6 +14,7 @@ public class Student06 {
     @GET
     @Path("/sayHello")
     @Produces(MediaType.APPLICATION_JSON)
+
     public String sayHello() {
         String message;
         String firstName = "John";
