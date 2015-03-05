@@ -22,6 +22,5 @@ public class Student01 {
         
         message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
-        
     }
 }
