@@ -18,10 +18,10 @@ public class Student01 {
 
     public String sayHello() {
         String message;
-        String firstName = "Tony1";
-        String lastName = "Fang";
+        String firstName = "Xin";
+        String lastName = "Tang";
         
-        message = new String (xin + " " + tang + " - You have deployed a REST api to the Oracle Public Cloud");
+        message = new String (fristName + "" + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
     }
 }
