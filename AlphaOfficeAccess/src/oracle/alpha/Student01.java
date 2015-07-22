@@ -21,7 +21,7 @@ public class Student01 {
         String firstName = "Tony1";
         String lastName = "Fang";
         
-        message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
+        message = new String (xin + " " + tang + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
     }
 }
