@@ -1,13 +1,14 @@
 package oracle.alpha;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.HEAD;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/AlphaOfficeAccess/Student08")
-public class Student08 {
-    public Student08() {
+@Path("/AlphaOfficeAccess/StudentXX")
+public class StudentXX {
+    public StudentXX() {
         super();
     }
 
@@ -17,11 +18,10 @@ public class Student08 {
 
     public String sayHello() {
         String message;
-        String firstName = "Remco";
-        String lastName = "Cats";
+        String firstName = "Mohammad";
+        String lastName = "Esad-Djou";
         
-        message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
+        message = new String (firstName + "" + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
     }
-
 }
