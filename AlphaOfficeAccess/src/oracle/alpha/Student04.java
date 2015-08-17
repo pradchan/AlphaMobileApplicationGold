@@ -17,8 +17,8 @@ public class Student04 {
 
     public String sayHello() {
         String message;
-        String firstName = "John";
-        String lastName = "Smit";
+        String firstName = "Alexandre";
+        String lastName = "Vieira";
 
         message = new String (firstName + " " + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
