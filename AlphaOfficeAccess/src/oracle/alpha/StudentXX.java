@@ -18,8 +18,8 @@ public class StudentXX {
 
     public String sayHello() {
         String message;
-        String firstName = "Raejsh";
-        String lastName = "Chawla";
+        String firstName = "Basu";
+        String lastName = "Ramanan";
         
         message = new String (firstName + "" + lastName + " - You have deployed a REST api to the Oracle Public Cloud");
         return message;
